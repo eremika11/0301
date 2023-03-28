@@ -1,0 +1,41 @@
+@charset "UTF-8";
+.container {
+    width: 900px;
+    height: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.container h1 {
+}
+.container header h1 {
+    color: #DB7171;
+    font-style: oblique;
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+}
+main article #a01 {
+    color: #DB7171;
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+    font-style: oblique;
+    font-variant: normal;
+    font-weight: normal;
+    font-size: x-large;
+}
+main article h3 {
+	color: #DB7171;
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+    font-style: normal;
+}
+main article #a02 {
+	color: #DB7171;
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+    font-style: oblique;
+    font-variant: normal;
+    font-weight: normal;
+    font-size: x-large;
+	
+}
+
+.container header h1 {
+    margin-left: auto;
+    margin-right: auto;
+}
