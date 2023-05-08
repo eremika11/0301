@@ -1,11 +1,10 @@
 <!doctype html>
+<html>
+    <meta charset="utf-8">
+    <title>0503</title>
+<div class="container">
+  <style type="text/css">
 
-
-  <html>
-  <head>
-  <meta charset="utf-8">
-  <title>0503</title>
-<style type="text/css">
 .box1 {
     width: 150px;
     height: 150px;
@@ -13,7 +12,7 @@
     -webkit-transition: all 1000ms ease-in-out 0s;
     -o-transition: all 1000ms ease-in-out 0s;
     transition: all 1000ms ease-in-out 0s;
-    transform: translateX(600px);
+    transform: translate(600px);
     justify-content: center;
 }
 	  
@@ -25,6 +24,7 @@
     -o-transition: all 1000ms ease-in-out 0ms;
     transition: all 1000ms ease-in-out 0ms;
 	transform: rotate(1080deg);
+	justify-content: center;
 }
 
 .box3 {
@@ -34,15 +34,13 @@
     -webkit-transition: all 1000ms ease-in-out 0ms;
     -o-transition: all 1000ms ease-in-out 0ms;
     transition: all 1000ms ease-in-out 0ms;
-	transform: scaleX(2);
+	transform: scale(4);
+	justify-content: center;
 }
 	
 .box1:hover {
     background-color: #98080A;
     justify-content: flex-start;
-}
-.box1 {
-    justify-content: center;
 }
 .box2:active {
     background-color: #C1BD3F;
@@ -50,14 +48,18 @@
 .box3:active {
     background-color: #041146;
 }
-	
+
 </style>
-</head>
-<body>
-<div class="box1">位移</div>
-<div class="box2">旋轉</div>
-<div class="box3">縮放</div>
-</body>
-  </html>
+  
+  <body>
+  <div>新增 div 標籤的內容位於此處</div>
+  <div class="box1">位移</div>
+  <div class="box2">旋轉</div>
+  <div class="box3">縮放</div>
+  </body>
+</div>
+  
+    </html>
+
 
 
