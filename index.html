@@ -3,9 +3,11 @@
 <head>
 	<style type="text/css">
 	#wrapper {
+	display: flex;
+	justify-content: center;
     margin-left: auto;
-	margin-right: auto;
-    align-items: center;
+    margin-right: auto;
+    align-content: center;
     width: 100%;
 }
 	@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@200;300;400;500;600;700;900&display=swap');
@@ -15,16 +17,17 @@
 	.menu {
     background-color: #88B6AA;
     display: flex;
-    padding-top: 20px;
-    padding-right: 20px;
-    padding-bottom: 20px;
-    padding-left: 20px;
-    width: 100%;
+    padding-top: 25px;
+    padding-right: 35px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    width: 200px;
     color: #FDFDFD;
     text-decoration: none;
     position: static;
     left: 0px;
     right: 0px;
+    height: 390px;
 }
 .lc {
     margin-top: 15px;
@@ -47,20 +50,19 @@
     .03 {
 }
     header {
-	display: flex
+    display: flex;
     background-size: cover;
     background-position: 0% center;
     background-color: rgba(255,255,255,0.83);
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 36px;
+    padding-bottom: 36px;
     color: #88B6AA;
     font-size: xx-large;
     font-weight: bolder;
     -webkit-transition: all 1s ease-in-out 0s;
     -o-transition: all 1s ease-in-out 0s;
     transition: all 1s ease-in-out 0s;
-    justify-content: center;
-    align-items: center;
+    padding-left: 268px;
 }
 main h2 {
     color: rgba(255,255,255,1.00);
@@ -118,6 +120,8 @@ body p {
     align-items: center;
 }
     footer {
+	display: flex;
+	justify-content: center;
     background-color: #88B6AA;
     background-size: contain;
     background-position: 0% 0%;
@@ -144,6 +148,7 @@ body p {
 }
     header:hover {
     color: rgba(216,207,131,1);
+    font-size: 80px;
 }
     ul div img {
     background-color: rgba(255,255,255,0.80);
@@ -162,6 +167,12 @@ article #03  {
     align-items: center;
 }
     ul .dw p {
+}
+    main img {
+	display: flex;
+	justify-content: center
+	
+
 }
     </style>
 <header>
@@ -192,13 +203,13 @@ article #03  {
         <p><img src="pic2%3A four national taps.png" width="700" height="auto" alt=""/></p>
         <p><img src="pic3%3A demonstration of 4 nt.jpg" width="700" height="auto" alt=""/></p>
         <p>
-          <ul>
+        <ul>
             <div>
               <li><h3>本地集水區的水(Water from Local Catchment)</h3></li>
               <br>
               <img src="pic5%3A all sg reservoir.png" width="700" height="auto" alt=""/>
               <p>新加坡的水庫和蓄水池遍佈全國。雖然地處赤道，降水豐富，但因狹小國土和低海拔，導致地下和地上逕流存量不多且容易流失；加上人口密度極高，水資源在新加坡更是稀缺。於是新加坡政府廣設水庫、蓄水池和街道上的蓄水管道，發揮天然的地理優勢，最大程度地保留地上逕流的水。新加坡集水區的面積已大於全部國土的三分之二（2011年的資料），最終目標是達到90%。</p>
-              </div>
+          </div>
             <li><h3>新生水 (NEWater)</h3></li>
             <img src="pic6%3A newater.jpg" width="700" height="auto" alt=""/>
             <p>民生用水等各種廢水由管線輸送至新生水工廠 (NEWater Plants, 5 in total)</p>
@@ -211,7 +222,7 @@ article #03  {
             <li><h3>進口水(Imported Water)</h3></li>
             <img src="pic8%3A imported.png" width="700" height="auto" alt=""/>
             <p>新加坡與馬來西亞分別於1961年與1962年簽訂新馬供水協定，其中1961年所簽的協定於2011年到期。現行協議為1962年簽訂，效期至2061年，兩項協定均在聯合國備案，雙方有義務遵循協定裡的所有條款。根據1962年的供水協定，馬來西亞同意以每千加侖0.03馬幣（約0.22新台幣）的價格，每日可以從柔佛河中抽取2.5億加侖生水給新加坡，佔新加坡每日用水量58～60％，兩國間的輸水管、馬達系統、氯水設備、人力資源，均由新加坡買單。此外，馬來西亞能以每千加侖0.5馬幣（約3.77新台幣），約17倍的價格向新加坡回購經處理過的淨水，且1962年的供水協定准許簽署國於1987年，即簽署後的25年檢討條款。</p>
-            </ul>
+        </ul>
         </p>
       </article>
       <article id="03">
@@ -226,9 +237,9 @@ article #03  {
         <p>除了為商業和研究提供環境外，新加坡在政府人員、研究人員和行業領導者之間就水資源問題、挑戰和解決方案進行對話方面發揮著關鍵作用。為了提升新加坡作為全球水電樞紐的形象，每兩年舉辦一次新加坡國際水資源週(SIWW)  。該平台與世界城市峰會和新加坡清潔環境峰會同時舉行，使水行業參與者能夠展示創新、分享政策發展並建立研發合作夥伴關係。</p>
         <img src="pic10%3A international water week.jpg" width="700" height="auto" alt=""/> 
       </article>
-      </div>
-    </main>
-  <footer>hsiao 2023</footer>
+    </div>
+  </main>
 </div>
+<footer>hsiao 2023</footer>
 </body>
 </html>
